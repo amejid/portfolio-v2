@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Header from "@/components/Header";
 
 export default function Home() {
   return (
@@ -6,7 +7,8 @@ export default function Home() {
       <Head>
         <title>Amejid&apos;s Portfolio</title>
       </Head>
-      <h1 className="text-red-500">Nice portfolio</h1>
+      <Header />
+      <section id="hero"></section>
     </>
   );
 }
